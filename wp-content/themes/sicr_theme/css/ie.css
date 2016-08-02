@@ -1,0 +1,29 @@
+
+.class { behavior:url(js/PIE.htc); position:absolute;}
+
+
+#toTop:hover{
+	background-position: 0px -47px;
+	border-radius: 49%;
+	}
+
+#form .error-message,
+#form .empty-message{
+filter:alpha(opacity=0);
+}
+
+#form .invalid .error-message, #form .empty .empty-message{
+filter:alpha(opacity=100); }
+
+
+
+.camera_wrap .camera_pag .camera_pag_ul li > span,
+.qoute_number,
+.qoute_number span
+ { behavior:url(js/PIE.htc); position:relative;}
+
+
+
+ .box1, .slide_box{
+ 	border: 1px solid #f3f3f3;
+ }

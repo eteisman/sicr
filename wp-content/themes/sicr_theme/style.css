@@ -1,0 +1,14 @@
+/*
+Theme Name: SICR Blog Template
+Theme URI: http://www.scotsintchurch.com/
+Description: Wordpress Blog template for the SICR website
+Author: Edwin Teisman
+Version: 1.0
+Tags: SICR Wordpress blog theme
+.
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+li.current-menu-item {
+	color:#3d8941;	
+}
