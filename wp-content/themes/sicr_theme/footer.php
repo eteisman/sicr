@@ -18,7 +18,7 @@
 					<h4 class="footer_title">Worship</h4>
 					<ul class="list">
 						<li>Main Service<br/><a href="#">Sundays, 10:30am</a></li>						
-						<li>Interim moderator<br/><a href="#">Rev. James Brown</a></li>
+						<li>Minister<br/><a href="#">Rev. Derek Lawson</a></li>
 						<li>Kerkdienst gemist<br/><a target="_blank" href="http://kerkdienstgemist.nl/assets/733518">kerkdienstgemist.nl</a></li>						
 					</ul>
 				</div>
@@ -64,7 +64,7 @@
 					Scots International<br/>&nbsp;&nbsp;Church <span class="logo">Rotterdam</span></h6>													
 					</a>
 					
-					<span class="footer_addres">Schiedamsevest 121, 3012 BH, Rotterdam </span>
+					<span class="footer_addres">Schiedamsesingel 2, 3012 BA, Rotterdam </span>
 					<span class="footer_phone">
 					  <i class="fa fa-whatsapp" style="top: 2px;"></i>
 					  <a href="tel:31104124779">+31 (0)10 412 4779</a>
