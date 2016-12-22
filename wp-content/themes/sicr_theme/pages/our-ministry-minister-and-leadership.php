@@ -17,18 +17,16 @@ Template Name: Our Ministry - Staff And Leadership
 			<div class="title_box">
 				<div class="wrapper m_16">
 					<img class="text_top_left" src="<?php echo sicr_image_dir();?>/about-us-minister.jpg" alt="">
-					We are in a vacancy right now, with our former minister, Rev. Robert Calvert, leaving us in June 2014 after 19 years, 
-					to take up a charge in Dundee, Scotland at the Steeple Church.
+					Reverend Derek Lawson has been elected as the new minister of the Scots International Church Rotterdam!
+					On June 5th 2016 our church overwhelmingly voted to accept Rev. Derek Lawson as the new minister for our church, 
+					after preaching as the sole nominee for the position. This means that after two years our church finally has a new minister.
 					<div class="line-break"></div>
-					The minister is the chair of the Consistory of the SICR, which is the body of Elders determining policy matters of 
-					the church. 
-					The minister is also a member of the Council of the SICR, the body of Elders and Deacons, which decides on financial 
-					and practical matters.
+					Derek was born in Dundee, Scotland, and grew up in the congregation of Dundee Parish Church (St Mary’s) where his father was Session Clerk for many years and where Alan Garrity served as Assistant Minister when he was training for the ministry.
 					<div class="line-break"></div>
-					Institutionally the minister is the Chairperson of the church, supported by the Secretary and the Treasurer of the SICR.<br/>
-					The church is part and parcel of the <a href="<?php echo sicr_slug_page('our-partners');?>#churchofscotland">Church of Scotland</a>, through 
-					the <a href="<?php echo sicr_slug_page('our-partners');?>#presbyteryofeurope">Presbytery of Europe</a>.<br/>
-					The SICR is liaised to the <a href="<?php echo sicr_slug_page('our-partners');?>#pkn">PKN - Protestante Kerken Nederland</a>, the body of Protestant Churches in The Netherlands. 
+					He studied law at Dundee University, graduating in 1969 and moved to Edinburgh to begin his apprenticeship. There he met Moira, who worked as a secretary in the same law office, and they were married in June 1971. Later that year they moved to Dundee where Derek began a 23 year association with his father’s law firm, finally becoming its senior partner. 
+					<div class="line-break"></div>
+					<div class="line-break"></div>
+					In 1994 he retired from the legal profession to undertake training for the ministry. He graduated with a Bachelor of Divinity (Honours) Degree from St Andrew’s University in 1997. He was ordained and inducted to the charge of Redgorton and Stanley (just north of Perth) in 1998. While there Derek served twice as Clerk to the Presbytery of Perth and was also its Moderator for a year. He also served on the Church of Scotland Legal Questions Committee. In 2011 he and Moira retired to France where they are now involved with the local Eglise Protestante Unie de France. Additionally he has recently been appointed Depute Clerk of the International Presbytery.	
 				</div>
 			</div>
 		</div>
