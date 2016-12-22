@@ -22,7 +22,7 @@ address {
 			<div class="wrapper" style="margin-bottom: 32px;">
 				<div class="map">
 					<figure class="map_box img_thumbnail">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2461.0565751799745!2d4.479517899999999!3d51.9146789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c433607ca4da2f%3A0xd22b1dfca65428f4!2sSchiedamse+Vest+121%2C+3012+BH+Rotterdam!5e0!3m2!1sen!2snl!4v1420665374766" style="border:0"></iframe>									  
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.039261414594!2d4.477061115356437!3d51.914994788640804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c43360795d52d1%3A0x35a75ffed616e101!2sSchiedamsesingel+2%2C+3012+BA+Rotterdam!5e0!3m2!1sen!2snl!4v1470412219059" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>									  
 					</figure>
 				</div>
 				
@@ -31,7 +31,7 @@ address {
 					<address>
 						<dl>
 							<dt>
-								Schiedamsevest 121 <br/> 
+								Schiedamsesingel 2 <br/> 
 								3012 BH, Rotterdam											
 							</dt>
 							<dd>
@@ -52,7 +52,7 @@ address {
 					<div>
 					The church is opposite to Rotterdam&lsquo;s Eye-Hospital (Het Oogziekenhuis).
 					<div style="height: 4px;"></div>
-					The nearest tram or metro can be found at Leuvehaven.
+					The nearest tram or metro can be found at Beurs or Leuvehaven.
 					<div style="height: 4px;"></div>
 					The church is within easy walking distance of the Maritime Museum and the Erasmus Bridge.
 					</div>
