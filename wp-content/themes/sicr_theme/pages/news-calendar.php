@@ -22,8 +22,9 @@ try {
   	$dienst_gemist = null;
 }
 
+// TEST CODE
+//var_dump($services); 
 
-//var_dump($future_services);
 ?>
 
 <style>
@@ -180,8 +181,6 @@ a.calendar-link {
 				$n++;
 				if ($n>=7) break; 
 				}		
-			} else {
-				echo "An error occured.";			
 			}?>
 			</div>
 			<a target="_blank" href="http://www.scotsintchurch.com/events/?page_id=13" class="calendar-link" style="margin-top: 20px;">

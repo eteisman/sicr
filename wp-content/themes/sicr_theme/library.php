@@ -194,7 +194,7 @@ function load_services_data($max_events) {
 	if (sizeof($services["future-events"]) == 0) {
 		$nextSunday = new DateTime('now');
 		$nextSunday = $nextSunday->modify('next sunday');
-		$whenSunday = $nextSunday->format("d-m-Y")." 11:30";
+		$whenSunday = $nextSunday->format("d-m-Y")." 10:30";
 		
 		$services["future-events"][0] = array();
 		$services["future-events"][0]["id"] = "";
@@ -206,6 +206,7 @@ function load_services_data($max_events) {
 		$services["future-events"][0]["completed"] = FALSE;
 	}  
 	//var_dump($services["future-events"]);
+	  // If there are not futture events, then just add the next Sunday by default  		  
 	  
   	$services["past-events"] = array();
   	$n = 0;
@@ -233,6 +234,23 @@ function load_services_data($max_events) {
     	$n++;
   		if ($n > $max_events) break;  		
   	}
+	  // if there are no past events, then add previous sunday by default
+	if (sizeof($services["past-events"]) == 0) {
+		$prevSunday = new DateTime('tomorrow');
+		$prevSunday = $prevSunday->modify('last sunday');
+		$whenSunday2 = $prevSunday->format("d-m-Y")." 10:30";
+		
+		$services["past-events"][0] = array();
+		$services["past-events"][0]["id"] = "";
+		$services["past-events"][0]["name"] = "Sunday Service";
+		$services["past-events"][0]["date"] = $prevSunday->getTimestamp();  
+		$services["past-events"][0]["time"] = "10:30";
+		$services["past-events"][0]["when"] = strAsLocalTime($whenSunday2);
+		$services["past-events"][0]["current"] = FALSE;
+		$services["past-events"][0]["completed"] = TRUE;
+	}  
+	//var_dump($services["past-events"]);
+	  
   	$services["other-events"] = array();
   	$n = 0;
   	foreach ($xml->other_events[0] as $event) {
@@ -304,7 +322,7 @@ function load_events_data($max_events) {
 	if (!$max_events) {
 		$max_events = 25;
 	}
-	$url_services_events_xml = "http://www.scotsintchurch.com/2015/content/calendar-events-xml.php";
+	$url_services_events_xml = "http://www.scotsintchurch.com/content/calendar-events-xml.php";
 	$xml = new DOMDocument;
   	$xml->formatOutput = true;
   	$xml->preserveWhiteSpace = false;
