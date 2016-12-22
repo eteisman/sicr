@@ -2,7 +2,7 @@
 	<div class="grid_8" style="margin-left: 0px;">
 		<div style="margin: 0px 0px 24px 0px; background-color: white; padding: 24px;">
 			<a target="_blank" href="<?php echo sicr_image_dir();?>/christmas-programme-2015.png">		
-				<img src="<?php echo sicr_image_dir();?>/christmas-programme-2015.png" style="max-width:100%; max-height:100%;">
+				<img src="<?php echo sicr_image_dir();?>/christmas-programme-2016.png" style="max-width:100%; max-height:100%;">
 			</a>
 		</div>				
 	</div>
