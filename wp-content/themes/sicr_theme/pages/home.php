@@ -7,7 +7,7 @@ Template Name: Home Page
 get_header();
 
 global $includeChrismasImage;
-$includeChrismasImage = TRUE;
+$includeChrismasImage = FALSE;
  
 if (!$includeChrismasImage) :
 	include 'home-normal.php';
