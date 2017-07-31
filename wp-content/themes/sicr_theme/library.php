@@ -75,23 +75,28 @@ function have_two_service_sheets(){
 }
 
 function isServiceSheetThisWeek($serviceSheetItem)	{
-	$today= new DateTime();	
-	try {
-		$d = DateTime::createFromFormat('d-m-Y', $serviceSheetItem["name"]);
-		$d->setTime(0,0); // truncate date
-		if ($d) {			
-			if ($d >= $today) {
-			  $diff = $today->diff($d);			
-			  return ($diff->days >0 ) && ($diff->days < 7);			
-			} else {
+	if ($serviceSheetItem) {
+		if (in_array("name", $serviceSheetItem)) { 
+			$today= new DateTime();	
+			try {
+				$d = DateTime::createFromFormat('d-m-Y', $serviceSheetItem["name"]);
+				$d->setTime(0,0); // truncate date
+				if ($d) {			
+					if ($d >= $today) {
+					  $diff = $today->diff($d);			
+					  return ($diff->days >0 ) && ($diff->days < 7);
+					} else {
+						return false;
+					}  
+				} else {
+					return false;
+				}
+			} catch (Exception $err) {
 				return false;
-			}  
-		} else {
-			return false;
+			}
 		}
-	} catch (Exception $err) {
-		return false;
 	}
+	return false;
 }
 
 function get_dienst_gemist_data() {
